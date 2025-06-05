@@ -1,9 +1,15 @@
 #!/bin/bash
 
-# Verificamos que haya 2 argumentos (las versiones)
 if [ $# -ne 2 ]; then
-  echo "Uso: $0 <version_inicial> <version_final>"
-  exit 1
+  printf '%.0s-' {1..45}; echo
+  echo "Welcome to the diff script - gdelta_summary"
+  printf '%.0s-' {1..45}; echo
+  echo ""
+  echo "Usage: gdelta_summary <version1> <version2>"
+  echo ""
+  echo "Example: gdelta_summary v1.0.0 v1.0.1"
+  echo ""
+  exit 0
 fi
 
 v1=$1
