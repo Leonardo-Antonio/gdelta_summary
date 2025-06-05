@@ -3,11 +3,11 @@ gdelta_summary A script that compares two Git versions and outputs a formatted s
 
 # Install 
 ```bash
-wget https://github.com/Leonardo-Antonio/gdelta_summary/archive/refs/tags/v1.0.0.zip -O gdelta_summary.zip
+wget https://github.com/Leonardo-Antonio/gdelta_summary/archive/refs/tags/v1.0.1.zip -O gdelta_summary.zip
 sudo bash -c '
 mkdir -p /usr/share/gdelta_summary && \
 unzip gdelta_summary.zip -d /usr/share/gdelta_summary && \
-mv /usr/share/gdelta_summary/gdelta_summary-1.0.0/gdelta_summary.sh /usr/bin && \
+mv /usr/share/gdelta_summary/gdelta_summary-1.0.1/gdelta_summary.sh /usr/bin && \
 chmod +x /usr/bin/gdelta_summary.sh && \
 rm gdelta_summary.zip
 '
